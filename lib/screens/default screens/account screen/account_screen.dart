@@ -2,6 +2,12 @@ import 'package:e_commerce_application/constants/default%20consts/consts.dart';
 import 'package:e_commerce_application/constants/images%20&%20lists%20&%20strings/custom_lists.dart';
 import 'package:e_commerce_application/controllers/auth_controller.dart';
 import 'package:e_commerce_application/controllers/profile_controller.dart';
+import 'package:e_commerce_application/screens/default%20screens/account%20screen/accountTile%20screen/coupens_screen.dart';
+import 'package:e_commerce_application/screens/default%20screens/account%20screen/accountTile%20screen/help_screen.dart';
+import 'package:e_commerce_application/screens/default%20screens/account%20screen/accountTile%20screen/history_screen.dart';
+import 'package:e_commerce_application/screens/default%20screens/account%20screen/accountTile%20screen/orders_screen.dart';
+import 'package:e_commerce_application/screens/default%20screens/account%20screen/accountTile%20screen/payments_screen.dart';
+import 'package:e_commerce_application/screens/default%20screens/account%20screen/accountTile%20screen/wishlist_screen.dart';
 import 'package:e_commerce_application/screens/default%20screens/account%20screen/credits_screen.dart';
 import 'package:e_commerce_application/screens/default%20screens/account%20screen/edit_profile_screen.dart';
 import 'package:e_commerce_application/screens/startUp screens/login_screen.dart';
@@ -43,23 +49,53 @@ class AccountScreen extends StatelessWidget {
         child: Column(
           children: [
             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-              profileFeatureButton("Payments", Icons.payment_rounded),
-              profileFeatureButton('Wishlists', Icons.favorite_rounded),
+              profileFeatureButton("Payments", Icons.payment_rounded)
+                  .box
+                  .make()
+                  .onTap(() {
+                Get.to(() => const PaymentsScreen());
+              }),
+              profileFeatureButton('Wishlists', Icons.favorite_rounded)
+                  .box
+                  .make()
+                  .onTap(() {
+                Get.to(() => const WishlistScreen());
+              }),
             ]),
             10.heightBox,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                profileFeatureButton("Orders", Icons.shopping_bag_rounded),
-                profileFeatureButton('History', Icons.history_rounded),
+                profileFeatureButton("Orders", Icons.shopping_bag_rounded)
+                    .box
+                    .make()
+                    .onTap(() {
+                  Get.to(() => const OrdersScreen());
+                }),
+                profileFeatureButton('History', Icons.history_rounded)
+                    .box
+                    .make()
+                    .onTap(() {
+                  Get.to(() => const HistoryScreen());
+                }),
               ],
             ),
             10.heightBox,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                profileFeatureButton("Coupons", Icons.card_giftcard),
-                profileFeatureButton(' Help', Icons.headset_mic_rounded),
+                profileFeatureButton("Coupons", Icons.card_giftcard)
+                    .box
+                    .make()
+                    .onTap(() {
+                  Get.to(() => const CoupensScreen());
+                }),
+                profileFeatureButton(' Help', Icons.headset_mic_rounded)
+                    .box
+                    .make()
+                    .onTap(() {
+                  Get.to(() => const HelpScreen());
+                }),
               ],
             ),
             20.heightBox,
