@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283142509284",
+    "project_id": "art-mart-1e872",
+    "storage_bucket": "art-mart-1e872.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283142509284:android:eeaed3a4900ec24a1552f1",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHBJfJhXnYBpOk0vkLmVkK9U12UIOjnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
