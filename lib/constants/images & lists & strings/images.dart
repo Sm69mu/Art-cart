@@ -17,7 +17,6 @@ const icTodaysDeal = "assets/icons/todays_deal.png";
 const icTopCategories = "assets/icons/top_categories.png";
 const icTopSeller = "assets/icons/top_sellers.png";
 
-
 //images
 
 const imgBackground = "assets/icons/bg.png";
@@ -30,12 +29,10 @@ const imgP5 = "assets/images/p5.jpg";
 
 const imgProfile2 = "assets/images/my_profile.jpeg";
 
-
 const imgSs1 = "assets/images/ss1.jpg";
 const imgSs2 = "assets/images/ss2.jpg";
 const imgSs3 = "assets/images/ss3.jpg";
 const imgSs4 = "assets/images/ss4.jpg";
-
 
 const imgpot = "assets/images/pot.jpeg";
 const imgsc = "assets/images/sc.jpg";
@@ -46,3 +43,8 @@ const imggw = "assets/images/gw.jpeg";
 const imgog = "assets/images/og.jpeg";
 const imgpn = "assets/images/pn.jpeg";
 const imgcw = "assets/images/cw.jpg";
+
+const imgBankLogo = "assets/images/Bandhan-Bank-Logo.jpg";
+const imgGpayLogo = "assets/images/Gpay-logo.png";
+const imgphonepe = "assets/images/phone-pey-logo.png";
+const igmpaytmlogo = "assets/images/paytm-logo.png";
