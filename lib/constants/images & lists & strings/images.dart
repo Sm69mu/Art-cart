@@ -48,3 +48,5 @@ const imgBankLogo = "assets/images/Bandhan-Bank-Logo.jpg";
 const imgGpayLogo = "assets/images/Gpay-logo.png";
 const imgphonepe = "assets/images/phone-pey-logo.png";
 const igmpaytmlogo = "assets/images/paytm-logo.png";
+
+const applogo = "assets/images/logo.png";

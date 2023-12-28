@@ -30,7 +30,7 @@ class CreditsScreen extends StatelessWidget {
             10.heightBox,
             "Contact".text.fontFamily(bold).size(20).make(),
             10.heightBox,
-            const Text('Individuals or Organizations'),
+            const Text('soumyajitmukherjee@gmail.com'),
           ],
         ),
       ),
