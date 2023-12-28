@@ -45,8 +45,7 @@ The current version of the application is a pre-release and is intended to use a
 <img src="assets/images/cart.png" width="200"> 
 
 ### Account details & Payments Page:
-<img src="assets/images/profile.png" width="200"> 
-<img src="assets/images/payments.png" width="200"> 
+<img src="assets/images/profile.png" width="200"> <img src="assets/images/payments.png" width="200"> 
 
 ## Built With
 
